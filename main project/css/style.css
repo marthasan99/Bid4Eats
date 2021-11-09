@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+.upper-menu {
+    background: #29b2e4;
+    padding: 5px 0px;
+}
+
+.search-icon {
+    background-color: #ffffff!important;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.search-bar {
+    border: none;
+    padding-right: 40px;
+    border-radius: 0px!important;
+}
+
+.search-dropdown {
+    background-color: white;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 0px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.btn3 {
+    background: none;
+    border: none;
+    border-radius: 40%;
+    margin-right: 10px;
+}
+
+.btn3:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+.search-dropdown i {
+    padding-right: 5px;
+}
+
+.v-divider {
+    padding-right: 15px;
+}
+
+.btn2 {
+    background-color: rgba(255, 255, 255, .3);
+    border: none;
+}
+
+.btn2:hover {
+    background: #26e6fe;
+}
+
+.main-menu {
+    padding-top: 15px;
+    background: #29b2e4;
+    border-bottom: 1px solid #26e6fe;
+    color: white;
+}
+
+.main-menu ul li {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+.main-menu ul li:hover {
+    border-bottom: 2px solid #26e6fe;
+}
+
+.main-menu ul li:first-child {
+    margin-left: 15px;
+}
+
+.form-control:focus {
+    border-color: none!important;
+    box-shadow: none !important;
+}
