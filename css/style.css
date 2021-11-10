@@ -48,6 +48,7 @@ body {
     border: none;
     padding-right: 140px;
     border-radius: 0px!important;
+    outline: none;
 }
 
 .search-dropdown {
@@ -57,6 +58,10 @@ body {
     padding-bottom: 6px;
     padding-right: 0px;
     border-radius: 0px 15px 15px 0px;
+}
+
+.search-option-icon i {
+    margin-right: 10px;
 }
 
 .btn3 {
@@ -149,7 +154,7 @@ body {
 .banner-container {
     position: relative;
     z-index: 2000;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
 .banner-left {
@@ -165,6 +170,7 @@ body {
     color: #fff;
     letter-spacing: -.4px;
     font-family: 'Bebas Neue', cursive;
+    margin-right: 10%;
 }
 
 .search-bar2 {
@@ -173,6 +179,7 @@ body {
     padding-top: 15px!important;
     padding-bottom: 15px!important;
     border-radius: 0px!important;
+    outline: none;
 }
 
 .search-dropdown2 {
@@ -199,13 +206,19 @@ body {
     margin-left: 20px;
     position: relative;
     background: #29b2e4;
-    padding: 3px 7px;
+    padding: 3px 12px;
     border-radius: 15px;
     cursor: pointer;
 }
 
 .under-search ul li:hover {
     border-bottom: 2px solid #26e6fe;
+    transform: scale(1.1);
+}
+
+.under-search ul li:nth-child(1):hover {
+    border-bottom: none;
+    transform: none;
 }
 
 .under-search ul li:first-child {
@@ -244,7 +257,7 @@ body {
     letter-spacing: 0;
     font-weight: 500;
     text-transform: none;
-    color: #fff;
+    color: #000;
 }
 
 .profile-inner a {
@@ -388,7 +401,7 @@ body {
     line-height: 28px;
     font-weight: 500;
     text-transform: none;
-    color: #fff;
+    color: #000;
 }
 
 .divider2 {
@@ -430,6 +443,7 @@ body {
 .bid-input {
     width: 150px;
     padding: 10px 5px;
+    outline: none;
 }
 
 .new-bid {
@@ -460,7 +474,8 @@ body {
 .bid-button:hover,
 .bid-button2:hover,
 .btn1:hover,
-.btn4:hover {
+.btn4:hover,
+.btn8:hover {
     background: rgba(255, 255, 255, .8);
 }
 
@@ -491,6 +506,7 @@ body {
     max-width: 1120px;
     border-radius: 10px;
     margin: 40px 2.5% auto 2.5%;
+    padding-bottom: 20px;
 }
 
 .comments h2 {
@@ -501,7 +517,7 @@ body {
     line-height: 28px;
     font-weight: 500;
     text-transform: none;
-    color: #fff;
+    color: #000;
 }
 
 .com-image {
@@ -517,5 +533,139 @@ body {
     border: none;
     border-bottom: 1px solid #29b2e4;
     background: transparent;
-    width: 100%
+    width: 82%;
+    outline: none;
+}
+
+com-input input:focus {
+    outline: none!important;
+    border: none !important;
+    border-bottom: 1px solid #29b2e4;
+}
+
+.btn7 {
+    display: inline;
+    margin-left: 40px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background: rgba(255, 255, 255, .4);
+}
+
+.btn7 i {
+    color: #fff;
+}
+
+.single-comments {
+    margin: 30px auto;
+}
+
+.comments-author {
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    text-transform: none;
+    color: var(--bs-fi-primary);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.comments-author span {
+    color: gray;
+}
+
+.com-input p {
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 20px;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    text-transform: none;
+    color: var(--bs-fi-primary);
+    word-break: break-all;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.com-input small i {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.com-input small span {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.btn8 {
+    padding: 10px 60px;
+    background: rgba(255, 255, 255, .4);
+    border: none;
+    margin-left: 20px;
+}
+
+.slider {
+    margin-left: 20px;
+}
+
+.related-tracks {
+    padding: 40px 0px;
+}
+
+.related-tracks img {
+    margin-bottom: 10px;
+    width: 200px!important;
+    height: 250px!important;
+}
+
+.related-tracks span {
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.related-tracks span a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.related-tracks .song-name {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.song-company {
+    color: #212529;
+    font-size: 14px;
+    letter-spacing: .1px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.item {
+    padding-right: 10px;
+}
+
+.owl-dots {
+    display: none;
 }
