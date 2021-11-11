@@ -441,9 +441,14 @@ body {
 }
 
 .bid-input {
+    background: rgba(255, 255, 255, .4);
     width: 150px;
     padding: 10px 5px;
     outline: none;
+}
+
+.bid-input:focus {
+    background: #fff;
 }
 
 .new-bid {
@@ -666,6 +671,11 @@ com-input input:focus {
     padding-right: 10px;
 }
 
-.owl-dots {
+.owl-nav {
     display: none;
+    margin-top: -5px;
+}
+
+.related-tracks {
+    margin-bottom: 40px;
 }
