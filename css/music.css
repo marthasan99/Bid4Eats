@@ -19,13 +19,13 @@ body {
     width: 95%;
     min-width: 300px;
     height: 56px;
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .07);
+    /* box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .07); */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 24px;
     padding-right: 24px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     user-select: none;
     -webkit-user-select: none;
     background-color: rgba(41, 178, 228, .4);

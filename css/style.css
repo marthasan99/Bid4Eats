@@ -32,19 +32,27 @@ body {
     padding-bottom: 0px!important;
     position: sticky;
     z-index: 1000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
 
 .upper-menu {
-    background: #29b2e4;
+    background: #ffffff;
     padding: 5px 0px;
 }
 
 .search-icon {
-    background-color: #ffffff!important;
+    background-color: #29b2e4!important;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.search-icon2 {
+    background-color: #fff!important;
     border-radius: 15px 0px 0px 15px;
 }
 
 .search-bar {
+    background-color: #29b2e4;
     border: none;
     padding-right: 140px;
     border-radius: 0px!important;
@@ -52,7 +60,7 @@ body {
 }
 
 .search-dropdown {
-    background-color: white;
+    background-color: #29b2e4;
     border: none;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -65,6 +73,7 @@ body {
 }
 
 .btn3 {
+    color: #29b2e4;
     background: none;
     border: none;
     border-radius: 40%;
@@ -72,7 +81,8 @@ body {
 }
 
 .btn3:hover {
-    background: rgba(255, 255, 255, .3);
+    color: white;
+    background: #26e6fe;
 }
 
 .search-dropdown i {
@@ -84,12 +94,18 @@ body {
 }
 
 .btn2 {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: #29b2e4;
     border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .btn2:hover {
     background: #26e6fe;
+}
+
+btn2:active {
+    background-color: #29b2e4!important;
 }
 
 .main-menu {
@@ -100,7 +116,8 @@ body {
 }
 
 .main-menu ul li {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     padding-bottom: 10px;
     display: inline-block;
     margin-left: 30px;
@@ -162,15 +179,17 @@ body {
 }
 
 .page-header {
-    font-size: 62px;
+    font-size: 42px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-stretch: normal;
-    line-height: 1.03;
+    line-height: 1.2;
     color: #fff;
     letter-spacing: -.4px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto Slab', serif;
     margin-right: 10%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .search-bar2 {
@@ -229,7 +248,7 @@ body {
 /* profile-auction code here */
 
 .profile-auction {
-    background: #26e6fe;
+    background: #fff;
 }
 
 .profile {
@@ -309,6 +328,53 @@ body {
     margin-left: 30px;
 }
 
+.song-button {
+    background: rgba(41, 178, 228, .4);
+    width: 1140px;
+    max-width: 95%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.btn9 {
+    background: rgba(255, 255, 255, .4);
+    font-size: 12px;
+    margin: 10px 6px;
+    padding: 3px 8px;
+    border: none;
+}
+
+.btn9:hover {
+    border: 1px solid rgba(41, 178, 228, .4);
+    transform: none;
+}
+
+.btn9 i {
+    margin-right: 2px;
+}
+
+.song-button {
+    text-align: left;
+}
+
+.btn-group {
+    margin-top: 10px;
+}
+
+.btn-group span {
+    margin-right: 12px;
+    font-size: 12px;
+}
+
+.btn-group span i {
+    margin-right: 5px;
+}
+
+.btn-group span i:hover {
+    color: rgba(255, 255, 255, .8);
+}
+
 .divider {
     margin: 20px auto;
     width: 80%;
@@ -378,11 +444,11 @@ body {
     line-height: 20px;
     font-weight: 500;
     text-transform: none;
-    color: #fff;
+    color: #29b2e4;
 }
 
 .btn5 i {
-    color: #fff;
+    color: #29b2e4;
 }
 
 .auction {
@@ -480,7 +546,8 @@ body {
 .bid-button2:hover,
 .btn1:hover,
 .btn4:hover,
-.btn8:hover {
+.btn8:hover,
+.btn9:hover {
     background: rgba(255, 255, 255, .8);
 }
 
@@ -559,7 +626,7 @@ com-input input:focus {
 }
 
 .btn7 i {
-    color: #fff;
+    color: #29b2e4;
 }
 
 .single-comments {
@@ -597,20 +664,22 @@ com-input input:focus {
 }
 
 .com-input small i {
-    color: #fff;
+    color: #29b2e4;
     margin-right: 5px;
 }
 
 .com-input small span {
     margin-left: 5px;
-    color: #fff;
+    color: #29b2e4;
 }
 
 .btn8 {
     padding: 10px 60px;
-    background: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .4);
     border: none;
     margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .slider {
@@ -618,13 +687,29 @@ com-input input:focus {
 }
 
 .related-tracks {
-    padding: 40px 0px;
+    background: rgba(41, 178, 228, .4);
+    margin-top: 20px;
+    border-radius: 10px;
+    max-width: 1120px;
+    width: 95%;
+    margin: 40px 2.5% auto 2.5%;
+    padding-bottom: 20px;
+}
+
+.related-tracks h2 {
+    padding: 30px 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: none;
+    color: #000;
 }
 
 .related-tracks img {
-    margin-bottom: 10px;
-    width: 200px!important;
-    height: 250px!important;
+    width: 160px!important;
+    height: 200px!important;
 }
 
 .related-tracks span {
@@ -636,12 +721,12 @@ com-input input:focus {
 }
 
 .related-tracks span a {
-    color: #fff;
+    color: #29b2e4;
     cursor: pointer;
     font-size: 14px;
     letter-spacing: .1px;
     line-height: 20px;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: none;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -650,12 +735,17 @@ com-input input:focus {
 
 .related-tracks .song-name {
     display: block;
-    color: #fff;
+    color: #29b2e4;
     font-size: 16px;
     letter-spacing: 0;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: none;
+}
+
+.bid-end {
+    display: block;
+    color: #000;
 }
 
 .song-company {

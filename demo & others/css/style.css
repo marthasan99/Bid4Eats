@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+  display: table;
+  margin: auto;
+}
+
+body {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  background: yellow;
+}
+
+.audio-player {
+  background: white;
+  border: 1px solid #dfdfdf;
+  width: 50vw;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  margin: 4rem 0 4rem 0;
+}
+
+.audio-player .album-image {
+  min-height: 100px;
+  width: 110px;
+  background-size: cover;
+}
+
+.audio-player .player-controls {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.5rem;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.audio-player .player-controls progress {
+  width: 90%;
+}
+
+.audio-player .player-controls progress[value] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  background-color: white;
+  color: blue;
+  height: 5px;
+}
+
+.audio-player .player-controls progress[value]::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid #dfdfdf;
+  color: blue;
+}
+
+.audio-player .player-controls progress::-webkit-progress-value {
+  background-color: blue;
+}
+
+.audio-player .player-controls p {
+  font-size: 1.6rem;
+}
+
+.audio-player #play-btn {
+  background-image: url("https://cdn.fastly.picmonkey.com/content4/previews/arrows_2/arrows_2_44_550.png");
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  margin: 2rem 0 2rem 2rem;
+}
+
+.audio-player #play-btn.pause {
+  background-image: url("https://img.icons8.com/ios/452/circled-pause.png");
+}
+/*# sourceMappingURL=style.css.map */
