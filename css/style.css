@@ -42,6 +42,7 @@ body {
 }
 
 .search-icon {
+    color: #fff;
     background-color: #29b2e4!important;
     border-radius: 15px 0px 0px 15px;
 }
@@ -59,7 +60,12 @@ body {
     outline: none;
 }
 
+.search-bar::placeholder {
+    color: #fff;
+}
+
 .search-dropdown {
+    color: #fff;
     background-color: #29b2e4;
     border: none;
     padding-top: 6px;
@@ -87,6 +93,7 @@ body {
 
 .search-dropdown i {
     padding-right: 5px;
+    color: #fff;
 }
 
 .v-divider {
@@ -256,7 +263,7 @@ btn2:active {
 }
 
 .profile-inner {
-    background: rgba(41, 178, 228, .4);
+    background: rgba(41, 178, 228, .2);
     margin-top: 40px;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -329,7 +336,7 @@ btn2:active {
 }
 
 .song-button {
-    background: rgba(41, 178, 228, .4);
+    background: rgba(41, 178, 228, .2);
     width: 1140px;
     max-width: 95%;
     display: flex;
@@ -452,7 +459,7 @@ btn2:active {
 }
 
 .auction {
-    background: rgba(41, 178, 228, .4);
+    background: rgba(41, 178, 228, .2);
     width: 95%;
     max-width: 1120px;
     border-radius: 10px;
@@ -573,7 +580,7 @@ btn2:active {
 /* comments code here */
 
 .comments {
-    background: rgba(41, 178, 228, .4);
+    background: rgba(41, 178, 228, .2);
     width: 95%;
     max-width: 1120px;
     border-radius: 10px;
@@ -687,7 +694,7 @@ com-input input:focus {
 }
 
 .related-tracks {
-    background: rgba(41, 178, 228, .4);
+    background: rgba(41, 178, 228, .2);
     margin-top: 20px;
     border-radius: 10px;
     max-width: 1120px;

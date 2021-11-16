@@ -25,12 +25,10 @@ body {
     align-items: center;
     padding-left: 24px;
     padding-right: 24px;
-    border-radius: 10px 10px 0px 0px;
     user-select: none;
     -webkit-user-select: none;
-    background-color: rgba(41, 178, 228, .4);
+    background-color: rgba(41, 178, 228, .2);
     ;
-    margin-top: 40px;
 }
 
 .audio.green-audio-player .play-pause-btn {
